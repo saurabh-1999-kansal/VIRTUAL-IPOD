@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* this is the conatiner of IPOD */
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 613px;
+}
+/* ths is the Ipod */
+#ipod {
+  background-color: lightgrey;
+  border: 9px solid rgb(217, 194, 194);
+
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to right,
+    rgb(217 194 194),
+    lightgrey,
+    rgb(217, 194, 194)
+  );
+}
+/* this is the conatiner of the buttons of Ipod */
+/* made it flex so that the wheel can be made in between */
+#outerRectangle {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  width: 225px;
+}
+/* this is the outer circle of the wheel */
+
+#outerCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+}
+/* this is the div in which the menu button is their */
+/* position is made absolute so that it is on a above layer and can be placed easily */
+#menu {
+  position: absolute;
+  top: 11px;
+  left: 46px;
+  height: 10px;
+  width: 25px;
+  font-size: 9px;
+}
+/* this is for the actual menu button */
+#menu button {
+  background-color: white;
+  border: none;
+}
+/* this is the inner circle of the wheel */
+#innerCircle {
+  background-color: lightgrey;
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+  border: none;
+}
+/* this is the icon of the left arrow in the buttons in the wheel */
+#leftArrow {
+  height: 10px;
+  width: 21px;
+  left: 12px;
+  top: 64px;
+  position: absolute;
+}
+/* similarly for the right arrow */
+#rightArrow {
+  height: 10px;
+  width: 21px;
+  right: 11px;
+  top: 64px;
+  position: absolute;
+}
+/* this is for the button below */
+#back {
+  height: 10px;
+  width: 15px;
+  left: 58px;
+  bottom: 23px;
+  position: absolute;
+}
+/* this is the button for going just one page back */
+#back button {
+  border: none;
+  background-color: white;
+}
+/* these are the div of all the icons on the top of the IPAD */
+#icons {
+  position: relative;
+  top: -2px;
+  height: 15px;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* this is the div of the time comming on the top left corner */
+#clock {
+  width: 50%;
+  height: 100%;
+  font-size: 13px;
+}
+/* this is the div for the right side icons on the top layer */
+#right-side-icons {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+/* div outside the images */
+#right-side-icons div {
+  height: 100%;
+  width: 15px;
+}
+/* for images of the icons */
+#icons div img {
+  height: 100%;
+  width: 15px;
+}
+/* here starts the css of the nscreeen component */
+/* this is the whole  screen */
+#screen {
+  height: 225px;
+  width: 225px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* here we have the css for the page in which half screen ism with the image and the half with the list of buttons */
+/* here I have used half before every id to signify that it is for the hlf type screen and similary for full also */
+/* this is the whole screen(half types) */
+#halfScreen {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+/* heading of the half type screen */
+#halfheading {
+  height: 15%;
+  text-align: center;
+  font-size: 20px;
+}
+/* this is the conatiner of the list and the image displayed on the half type screen */
+#list-image-container {
+  display: flex;
+  height: 85%;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+/* this is the container of the list of buttons in the half type screen */
+#list {
+  width: 50%;
+}
+#button-container {
+  height: 25%;
+  width: 100%;
+}
+/* this is for the buttons inside the list container */
+#list button {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+/* this is the image on the right half of the half type screen */
+#halfimg {
+  width: 50%;
+  height: 100%;
+}
+
+/* here the css for the full type screen starts in which i have only an image and not a list */
+/* this is the whole screen of the full type screen */
+#fullScreen {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+/* actually its display is made none just so that it must not be visible to the user */
+#fullScreen #list {
+  display: none;
+}
+/* this is the heading of the full type screen */
+#fullHeading {
+  height: 15%;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+/* this is the image of the full type screen */
+#fullImg {
+  height: 85%;
+  width: 97%;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+/* this is the active class so that the background of the active button changes */
+.Active {
+  background-color: rgb(165, 146, 146);
+}
