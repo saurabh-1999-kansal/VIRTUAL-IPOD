@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/saurabh-1999-kansal/VIRTUAL-IPOD/static/css/main.2857a5ca.chunk.css",
+    "main.js": "/saurabh-1999-kansal/VIRTUAL-IPOD/static/js/main.42a3bb54.chunk.js",
+    "main.js.map": "/saurabh-1999-kansal/VIRTUAL-IPOD/static/js/main.42a3bb54.chunk.js.map",
+    "runtime-main.js": "/saurabh-1999-kansal/VIRTUAL-IPOD/static/js/runtime-main.433aeb15.js",
+    "runtime-main.js.map": "/saurabh-1999-kansal/VIRTUAL-IPOD/static/js/runtime-main.433aeb15.js.map",
+    "static/js/2.8d79d756.chunk.js": "/saurabh-1999-kansal/VIRTUAL-IPOD/static/js/2.8d79d756.chunk.js",
+    "static/js/2.8d79d756.chunk.js.map": "/saurabh-1999-kansal/VIRTUAL-IPOD/static/js/2.8d79d756.chunk.js.map",
+    "index.html": "/saurabh-1999-kansal/VIRTUAL-IPOD/index.html",
+    "static/css/main.2857a5ca.chunk.css.map": "/saurabh-1999-kansal/VIRTUAL-IPOD/static/css/main.2857a5ca.chunk.css.map",
+    "static/js/2.8d79d756.chunk.js.LICENSE.txt": "/saurabh-1999-kansal/VIRTUAL-IPOD/static/js/2.8d79d756.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.433aeb15.js",
+    "static/js/2.8d79d756.chunk.js",
+    "static/css/main.2857a5ca.chunk.css",
+    "static/js/main.42a3bb54.chunk.js"
+  ]
+}
